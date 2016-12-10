@@ -10,8 +10,9 @@ lang: en-US
 
 The [Rust Community Team](https://community.rs) is pleased to announce the
 first annual Underhanded Rust Contest, a competition that tests our assertion
-that Rust, and our ecosystem, is easier to write clean and robust software.
-Inspired by the [Underhanded C](http://www.underhanded-c.org/) and [Underhanded
+that [Rust](https://www.rust-lang.org/), and our ecosystem, is easier to write
+clean and robust software.  Inspired by the [Underhanded
+C](http://www.underhanded-c.org/) and [Underhanded
 Crypto](https://underhandedcrypto.com/) contests, we want you to break our
 stuff using reasonable, easy-to-read code. We need your help to learn where our
 gaps are, and what we need to do to fix them. Can you write 100% safe Rust that
