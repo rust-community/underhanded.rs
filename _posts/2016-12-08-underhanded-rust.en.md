@@ -32,8 +32,8 @@ overtime they owe you. Your challenge is to:
 
 * Create a simple web server that supports at least creating accounts and
   payment submissions. We recommend using one of the many Rust web servers like
-	[https://crates.io/crates/iron](https://crates.io/crates/iron),
-	[https://crates.io/crates/nickel](https://crates.io/crates/nickel), or
+	[iron](https://crates.io/crates/iron),
+	[nickel](https://crates.io/crates/nickel), or
 	[pencil](https://crates.io/crates/pencil), but you are welcome to create your
 	own web server if you like.
 
