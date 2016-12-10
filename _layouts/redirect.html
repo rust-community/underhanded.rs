@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Rust Programming Language</title>
+    <script type="text/javascript">
+      // a list of mappings, the keys are what we might get from a browser, and the
+      // values are what URL we should send that value to.
+      var languages = {
+        "en": "en-US",
+        "en-US": "en-US",
+        "fr": "fr-FR",
+        "fr-FR": "fr-FR",
+      };
+
+      // look up the provided language in the map
+      var code = window.navigator.language || window.navigator.userLanguage || "en";
+      var language = languages[code];
+
+      // if we didn't find a supporting language, default to en-US
+      if (!language) { language = "en-US"; }
+
+      document.location = "/" + language + '{{ page.url }}';
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=/en-US{{ page.url }}">
+    </noscript>
+  </head>
+  <body>
+    <p><a href="/en-US{{ page.url }}">Click here</a> to be redirected.</p>
+  </body>
+</html>

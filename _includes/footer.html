@@ -1,4 +1,55 @@
-<footer>
-  Except where otherwise noted, this website is licensed under a
-  <a rel="license" href="http://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International License</a>.
+<footer class="site-footer">
+	<div class="wrapper">
+		<p>
+		{% if page.lang == "fr-FR" %}
+		Notre site dans d'autres langues&nbsp;:
+		<a href="/en-US/">English</a>
+		{% else %}
+		Our site in other languages&nbsp;:
+		<a href="/fr-FR/">Français</a>
+		{% endif %}
+		</p>
+
+		<div class="footer-col-wrapper">
+			<div class="footer-col footer-col-1">
+				<ul class="contact-list">
+					<li>
+						{% if site.author %}
+						{{ site.author | escape }}
+						{% else %}
+						{{ site.title | escape }}
+						{% endif %}
+					</li>
+					{% if site.email %}
+					<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+					{% endif %}
+				</ul>
+			</div>
+
+			<div class="footer-col footer-col-2">
+				<ul class="social-media-list">
+					{% if site.github_username %}
+					<li>
+						{% include icon-github.html username=site.github_username %}
+					</li>
+					{% endif %}
+
+					{% if site.twitter_username %}
+					<li>
+						{% include icon-twitter.html username=site.twitter_username %}
+					</li>
+					{% endif %}
+				</ul>
+			</div>
+
+			<div class="footer-col footer-col-3">
+				{% if page.lang == "fr-FR" %}
+				Sauf indication contraire, ce site est sous licence
+				{% else %}
+				Except where otherwise noted, this website is licensed under a
+				{% endif %}
+				<a rel="license" href="http://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International License</a>.
+			</div>
+		</div>
+	</div>
 </footer>
