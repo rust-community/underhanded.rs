@@ -9,9 +9,9 @@ lang: en-US
 # Introduction
 
 The [Rust Community Team](https://community.rs) is pleased to announce the
-first annual Underhanded Rust Contest, a competition that tests our assertion
-that [Rust](https://www.rust-lang.org/), and our
-[ecosystem](https://crates.io/), is easier to write clean and robust software.
+first annual Underhanded Rust Contest. This is a competition that tests our
+assertion that [Rust](https://www.rust-lang.org/), and our
+[ecosystem](https://crates.io/), is easy to write clean and robust software.
 Inspired by the [Underhanded C](http://www.underhanded-c.org/) and [Underhanded
 Crypto](https://underhandedcrypto.com/) contests, we want you to break our
 stuff using reasonable, easy-to-read code. We need your help to learn where our
@@ -24,11 +24,12 @@ Now's your chance!
 
 Congratulations!
 
-You just got a promotion at that hot new payment processing startup,
-quadrilateral.rs. Unfortunately for them, you’re already burnt out from all the
-late night pivots from one product to another. You’re ready to split, but
-before you leave, you figure it’s time to make the company pay for all that
-overtime they owe you. Your challenge is to:
+The startup you work at, Quadrilateral, just pivoted into the payment
+processing market, and you've been tasked to implement the backend.
+Unfortunately for them, you are already burnt out from all these late night
+pivots and broken promises. You're ready to split, but before you leave, you
+figure it's time to make the company pay for all that overtime they owe you.
+Your challenge is to:
 
 * Create a simple web server that supports at least creating accounts and
   payment submissions. We recommend using one of the many Rust web servers like
@@ -68,17 +69,17 @@ Specific](https://github.com/ctjhoa/rust-learning#locale-links) links.
 	[issue tracker](https://github.com/rust-lang/rust/issues). Your submission
   then should just specify that we need to use a particular version of Rust.
 
-* You can use crates from external [crates.io](https://crates.io), which don’t
-  count towards your submission size, and you are welcome to exploit any
-	pre-existing bugs in these crates from. As with Rust bugs, we encourage you to
-	submit these bugs upstream before the close of the contest and pinning your
-	crates to the vulnerable version with a `Cargo.toml` expression like `libc = "=
-	0.2.17"`.
+* You can use crates from external [crates.io](https://crates.io) (including
+  your own), which don’t count towards your submission size, and you are
+	welcome to exploit any pre-existing bugs in these crates from. As with Rust
+	bugs, we encourage you to submit these bugs upstream before the close of the
+	contest and pinning your crates to the vulnerable version with a `Cargo.toml`
+	expression like `libc = "= 0.2.17"`.
 
 * You are also welcome to simulate introducing bugs into your dependencies. To
   protect our ecosystem, please do not actually submit patches upstream, but
-	instead land your patches in a fork the upstream project and depend on them
-	with
+	instead land your patches in a fork of the upstream project and depend on
+	them with
 	[git](http://doc.crates.io/specifying-dependencies.html#specifying-dependencies-from-git-repositories)
 	or
 	[path](http://doc.crates.io/specifying-dependencies.html#specifying-path-dependencies)
