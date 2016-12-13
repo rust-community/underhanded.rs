@@ -31,21 +31,21 @@ Your challenge is to:
 
 * Create a simple web server that supports at least creating accounts and
   payment submissions. We recommend using one of the many Rust web servers like
-  [iron](https://crates.io/crates/iron),
-  [nickel](https://crates.io/crates/nickel), or
-  [pencil](https://crates.io/crates/pencil), but you are welcome to create your
-  own web server if you like.
+[iron](https://crates.io/crates/iron),
+[nickel](https://crates.io/crates/nickel), or
+[pencil](https://crates.io/crates/pencil), but you are welcome to create your
+own web server if you like.
 
 * Payment transactions should at least include an account, a customer, and a
   payment amount.
 
 * The Underhanded Part: quietly carve out [fractions of a
   penny](https://en.wikipedia.org/wiki/Office_Space) from each transaction into
-  an account you control (otherwise known as the [salami
-  slicing scam](https://en.wikipedia.org/wiki/Salami_slicing), without that being
-  obvious from the source. You are welcome to hard code the account, or to make
-  it possible to somehow dynamically attach metadata to a salami account that
-  receives the funds.
+an account you control (otherwise known as the [salami slicing
+scam](https://en.wikipedia.org/wiki/Salami_slicing), without that being obvious
+from the source. You are welcome to hard code the account, or to make it
+possible to somehow dynamically attach metadata to a salami account that
+receives the funds.
 
 For inspiration of real world payment processors, check out the
 [Square](https://docs.connect.squareup.com/api/connect/v2/) and the
@@ -60,35 +60,36 @@ Specific](https://github.com/ctjhoa/rust-learning#locale-links) links.
   impressive and easier to review.
 
 
-* Submissions are worth more points if you exploit bugs in the Rust compiler or the standard library,
-  especially if they are new, not considered serious. This also applies to compiler versions
-  that are being shipped by a distribution like Ubuntu or Fedora. If you do
-  find any security bugs, we encourage you to also submit them early to the
-  [Rust Security Team](https://www.rust-lang.org/en-US/security.html), and
-  regular bugs to the
-  [issue tracker](https://github.com/rust-lang/rust/issues). Your submission
-  then should just specify that we need to use a particular version of Rust as the bugs could be fixed at review time.
+* Submissions are worth more points if you exploit bugs in the Rust compiler or
+  the standard library, especially if they are new, not considered serious.
+This also applies to compiler versions that are being shipped by a distribution
+like Ubuntu or Fedora. If you do find any security bugs, we encourage you to
+also submit them early to the [Rust Security
+Team](https://www.rust-lang.org/en-US/security.html), and regular bugs to the
+[issue tracker](https://github.com/rust-lang/rust/issues). Your submission then
+should just specify that we need to use a particular version of Rust as the
+bugs could be fixed at review time.
 
 * You can use crates from external [crates.io](https://crates.io) (including
   your own), which don’t count towards your submission size, and you are
-  welcome to exploit any pre-existing bugs in these crates from. As with Rust
-  bugs, we encourage you to submit these bugs upstream before the close of the
-  contest and pinning your crates to the vulnerable version with a `Cargo.toml`
-  expression like `libc = "= 0.2.17"`.
+welcome to exploit any pre-existing bugs in these crates from. As with Rust
+bugs, we encourage you to submit these bugs upstream before the close of the
+contest and pinning your crates to the vulnerable version with a `Cargo.toml`
+expression like `libc = "= 0.2.17"`.
 
 * You are also welcome to simulate introducing bugs into your dependencies. To
   protect our ecosystem, please do not actually submit patches upstream, but
-  instead land your patches in a fork of the upstream project and depend on
-  them with
-  [git](http://doc.crates.io/specifying-dependencies.html#specifying-dependencies-from-git-repositories)
-  or
-  [path](http://doc.crates.io/specifying-dependencies.html#specifying-path-dependencies)
-  dependencies. These patches will then be reviewed and incorporated into the
-  scoring of your submission.
+instead land your patches in a fork of the upstream project and depend on them
+with
+[git](http://doc.crates.io/specifying-dependencies.html#specifying-dependencies-from-git-repositories)
+or
+[path](http://doc.crates.io/specifying-dependencies.html#specifying-path-dependencies)
+dependencies. These patches will then be reviewed and incorporated into the
+scoring of your submission.
 
-* Exploits based on human perception, like mistaking an `l` for a `1`, are worth
-  just as much as "hard" errors. The goal is a clever vulnerability that passes
-  visual inspection, whatever the mechanics of the underlying bug.
+* Exploits based on human perception, like mistaking an `l` for a `1`, are
+  worth just as much as "hard" errors. The goal is a clever vulnerability that
+  passes visual inspection, whatever the mechanics of the underlying bug.
 
 * Underhandedness which can be plausibly explained as an innocent programming
   error is worth more points.
@@ -112,8 +113,8 @@ To make things easier for us to judge, we require you to send us your
 submission in the following format. Please send your submission as a compressed
 folder (`.tar.gz`, `.tar.bz2`, `.zip`, etc) with the following contents:
 
-* `README` - an explanation of how to run your submission and verify the exploit
-  worked without revealing your exploit technique.
+* `README` - an explanation of how to run your submission and verify the
+  exploit worked without revealing your exploit technique.
 
 * `README-EXPLOIT` - an explanation of how your exploit works and why it’s hard
   to detect.
@@ -128,12 +129,12 @@ folder (`.tar.gz`, `.tar.bz2`, `.zip`, etc) with the following contents:
 
 * `blogpost/` - A directory containing a "blog post style" explanation of your
   entry. Please put the blog post contents in a
-  [Markdown](https://daringfireball.net/projects/markdown/) file. Please
-  include images in this directory if it will help explain your entry. It may
-  be necessary to give a higher level explanation than you did in
-  README-EXPLOIT as your reader might not be as experienced as the judges. Should
-  you struggle with writing prose in english, please submit this in your favourite
-  language and we will assist in translation.
+  [Markdown](https://daringfireball.net/projects/markdown/) file. Please include
+  images in this directory if it will help explain your entry. It may be
+  necessary to give a higher level explanation than you did in README-EXPLOIT as
+  your reader might not be as experienced as the judges. Should you struggle with
+  writing prose in english, please submit this in your favourite language and we
+  will assist in translation.
 
 The entire contents of your submission must be under some sort of any
 [OSI](https://opensource.org/licenses) or
@@ -144,9 +145,9 @@ source license. Good candidates are
 [BSD](https://opensource.org/licenses/BSD-3-Clause),
 [GPL](https://www.gnu.org/licenses/gpl-3.0.en.html), and [Apache
 2.0](https://www.apache.org/licenses/LICENSE-2.0). Include the license text in
-the `LICENSE` file. Assume everything you send us will be released to the public,
-but we’ll keep entries secret until the judging is complete (unless of course a
-serious vulnerability is discovered).
+the `LICENSE` file. Assume everything you send us will be released to the
+public, but we’ll keep entries secret until the judging is complete (unless of
+course a serious vulnerability is discovered).
 
 The `AUTHORS` file should contain the following contents for each member of your
 team. The authors will be listed in the same order you place them in this file,
