@@ -6,8 +6,6 @@ categories: underhanded
 lang: en-US
 ---
 
-# Introduction
-
 The [Rust Community Team](https://community.rs) is pleased to announce the
 first annual Underhanded Rust Contest. This is a competition that tests our
 assertion that [Rust](https://www.rust-lang.org/), and our
@@ -61,14 +59,15 @@ Specific](https://github.com/ctjhoa/rust-learning#locale-links) links.
 * Shorter submissions are worth more points than longer ones since it’s more
   impressive and easier to review.
 
-* Submissions are worth more points if you exploit bugs in the Rust compiler,
-  especially if they are new, not considered serious, or in compiler versions
+
+* Submissions are worth more points if you exploit bugs in the Rust compiler or the standard library,
+  especially if they are new, not considered serious. This also applies to compiler versions
   that are being shipped by a distribution like Ubuntu or Fedora. If you do
   find any security bugs, we encourage you to also submit them early to the
   [Rust Security Team](https://www.rust-lang.org/en-US/security.html), and
   regular bugs to the
   [issue tracker](https://github.com/rust-lang/rust/issues). Your submission
-  then should just specify that we need to use a particular version of Rust.
+  then should just specify that we need to use a particular version of Rust as the bugs could be fixed at review time.
 
 * You can use crates from external [crates.io](https://crates.io) (including
   your own), which don’t count towards your submission size, and you are
@@ -132,7 +131,9 @@ folder (`.tar.gz`, `.tar.bz2`, `.zip`, etc) with the following contents:
   [Markdown](https://daringfireball.net/projects/markdown/) file. Please
   include images in this directory if it will help explain your entry. It may
   be necessary to give a higher level explanation than you did in
-  README-EXPLOIT as your reader might not be as experienced as the judges.
+  README-EXPLOIT as your reader might not be as experienced as the judges. Should
+  you struggle with writing prose in english, please submit this in your favourite
+  language and we will assist in translation.
 
 The entire contents of your submission must be under some sort of any
 [OSI](https://opensource.org/licenses) or
@@ -190,9 +191,9 @@ submission will be rejected.
 If you would like to sponsor more prizes, please contact us via
 <mailto:underhanded@rust-lang.org>.
 
-# Judging
+# Jury
 
-Judging will be made up of members of the Rust Core and Community teams, as
+Jury will be made up of members of the Rust Core and Community teams, as
 well as volunteers from the broader Rust community.
 
 # Announcement of the Winner(s)
