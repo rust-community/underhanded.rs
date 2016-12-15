@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "The 2016 Underhanded Rust Contest"
-date:   2016-12-07 11:23:34 -1000
-categories: underhanded
+title: "The 2016 Underhanded Rust Contest"
+date: 2016-12-14 09:00:00 -0800
+category: blog
 lang: en-US
 ---
 
@@ -21,7 +21,6 @@ break our stuff using reasonable, easy-to-read code. Can you write 100% safe
 Rust that hides a logic bug, or hide an exploit in
 [unsafe](https://doc.rust-lang.org/book/unsafe.html) Rust that passes an audit?
 Now's your chance!
-
 
 # The 2016 Challenge: Salami Slicing
 

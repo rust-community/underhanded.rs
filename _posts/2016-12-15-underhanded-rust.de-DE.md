@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Der Underhanded Rust Contest 2016"
-date:   2016-12-07 11:23:34 -1000
-categories: underhanded
+title: "Der Underhanded Rust Contest 2016"
+date: 2016-12-14 09:00:00 -0800
+category: blog
 lang: de-DE
 ---
-
-# Der Underhanded Rust Contest 2016 
 
 Das [Rust Community Team](https://community.rs) ist freut sich, die erste Ausgabe
 des jährlichen Underhanded Rust Contests! Der Contest soll prüfen, ob unsere
