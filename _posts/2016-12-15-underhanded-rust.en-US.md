@@ -6,7 +6,7 @@ lang: en-US
 ---
 
 {:.post-meta}
-[Deutsche]({% post_url 2016-12-15-underhanded-rust.de-DE %}),
+[Deutsch]({% post_url 2016-12-15-underhanded-rust.de-DE %}),
 [Español]({% post_url 2016-12-15-underhanded-rust.es-ES %}),
 [简体中文]({% post_url 2016-12-15-underhanded-rust.zh-CN %})
 
