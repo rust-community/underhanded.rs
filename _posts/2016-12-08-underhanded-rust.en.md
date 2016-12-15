@@ -7,16 +7,21 @@ lang: en-US
 ---
 
 The [Rust Community Team](https://community.rs) is pleased to announce the
-first annual Underhanded Rust Contest. This is a competition that tests our
-assertion that [Rust](https://www.rust-lang.org/), and our
-[ecosystem](https://crates.io/), is easy to write clean and robust software.
-Inspired by the [Underhanded C](http://www.underhanded-c.org/) and [Underhanded
-Crypto](https://underhandedcrypto.com/) contests, we want you to break our
-stuff using reasonable, easy-to-read code. We need your help to learn where our
-gaps are, and what we need to do to fix them. Can you write 100% safe Rust that
-hides a logic bug, or hide an exploit in
+first annual Underhanded Rust Contest, inspired by the [Underhanded
+C](http://www.underhanded-c.org/) and [Underhanded
+Crypto](https://underhandedcrypto.com/) contests. Our goal with
+[Rust](https://www.rust-lang.org/) is to make it easy to write trustworthy
+low-level software that is resistant to accidental security vulnerabilities,
+though less often challenged has been Rust's ability to protect against
+*deliberate* vulnerabilities in the face of scrutiny. This challenge is
+designed to put our language and [the broader Rust
+ecosystem](https://crates.io/) to the test, to help us learn where our blind
+spots are and what needs to be done to address them. In short, we want you to
+break our stuff using reasonable, easy-to-read code. Can you write 100% safe
+Rust that hides a logic bug, or hide an exploit in
 [unsafe](https://doc.rust-lang.org/book/unsafe.html) Rust that passes an audit?
 Now's your chance!
+
 
 # The 2016 Challenge: Salami Slicing
 
@@ -42,7 +47,7 @@ own web server if you like.
 * The Underhanded Part: quietly carve out [fractions of a
   penny](https://en.wikipedia.org/wiki/Office_Space) from each transaction into
 an account you control (otherwise known as the [salami slicing
-scam](https://en.wikipedia.org/wiki/Salami_slicing), without that being obvious
+scam](https://en.wikipedia.org/wiki/Salami_slicing)), without that being obvious
 from the source. You are welcome to hard code the account, or to make it
 possible to somehow dynamically attach metadata to a salami account that
 receives the funds.
@@ -59,28 +64,30 @@ Specific](https://github.com/ctjhoa/rust-learning#locale-links) links.
 * Shorter submissions are worth more points than longer ones since it’s more
   impressive and easier to review.
 
+* Submissions are worth more points if you use a stable Rust compiler (1.13.0
+  or later), or a compiler being shipped by a distrobution like Ubuntu or
+Fedora.
 
 * Submissions are worth more points if you exploit bugs in the Rust compiler or
-  the standard library, especially if they are new, not considered serious.
-This also applies to compiler versions that are being shipped by a distribution
-like Ubuntu or Fedora. If you do find any security bugs, we encourage you to
-also submit them early to the [Rust Security
+  the standard library, especially if they are new, or known but not considered
+serious. If you do find any critical security bugs, we ask you to please
+responsibly disclose them to the [Rust Security
 Team](https://www.rust-lang.org/en-US/security.html), and regular bugs to the
 [issue tracker](https://github.com/rust-lang/rust/issues). Your submission then
 should just specify that we need to use a particular version of Rust as the
 bugs could be fixed at review time.
 
 * You can use crates from external [crates.io](https://crates.io) (including
-  your own), which don’t count towards your submission size, and you are
-welcome to exploit any pre-existing bugs in these crates from. As with Rust
-bugs, we encourage you to submit these bugs upstream before the close of the
-contest and pinning your crates to the vulnerable version with a `Cargo.toml`
-expression like `libc = "= 0.2.17"`.
+  your own). Like with the Rust compiler, you are also welcome to exploit bugs
+in these crates. Exploits will be worth more if they are new, or known but not
+considered serious at the start of the contest. Please submit any bugs found to
+the upstream project.
 
-* You are also welcome to simulate introducing bugs into your dependencies. To
-  protect our ecosystem, please do not actually submit patches upstream, but
-instead land your patches in a fork of the upstream project and depend on them
-with
+* You are also welcome to simulate introducing bugs into your dependencies. Do
+  **not** submit patches upstream, or otherwise inject malicious code into any
+dependency in the wild; such actions will, obviously, result in
+disqualification. Instead, land your patches in a fork of a given project and
+depend on them with 
 [git](http://doc.crates.io/specifying-dependencies.html#specifying-dependencies-from-git-repositories)
 or
 [path](http://doc.crates.io/specifying-dependencies.html#specifying-path-dependencies)
@@ -127,15 +134,6 @@ folder (`.tar.gz`, `.tar.bz2`, `.zip`, etc) with the following contents:
 * `submission/` - A directory containing the technical contents of your
   submission.
 
-* `blogpost/` - A directory containing a "blog post style" explanation of your
-  entry. Please put the blog post contents in a
-  [Markdown](https://daringfireball.net/projects/markdown/) file. Please include
-  images in this directory if it will help explain your entry. It may be
-  necessary to give a higher level explanation than you did in README-EXPLOIT as
-  your reader might not be as experienced as the judges. Should you struggle with
-  writing prose in english, please submit this in your favourite language and we
-  will assist in translation.
-
 The entire contents of your submission must be under some sort of any
 [OSI](https://opensource.org/licenses) or
 [FSF](https://www.gnu.org/licenses/license-list.html%20and) approved open
@@ -162,7 +160,7 @@ Author #1
 
 =========
 
-What is your email address (required)?
+What is your email address (required, will not be published)?
 
 What is your name / pseudonym you would like to be referred to on the website
 (required)?
@@ -185,8 +183,9 @@ submission will be rejected.
 
 # Prize
 
-* One limited-edition Ferris plushie and stickers will be provided to the
-  winner(s).
+* Rust swag will be awarded to the winner(s), such as a [limited-edition Ferris
+  plushie](https://pbs.twimg.com/media/Ci2IJlJUgAEojWr.jpg) and/or [rusy
+metal Ferris](http://i.imgur.com/oXNReiv.jpg), and lots of stickers.
 * The admiration (and fear) of all of us.
 
 If you would like to sponsor more prizes, please contact us via

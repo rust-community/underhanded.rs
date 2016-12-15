@@ -8,7 +8,7 @@ lang: de-DE
 
 # Der Underhanded Rust Contest 2016 
 
-Das [Rust Community Team](https://community.rs) ist erfreut, die erste Ausgabe
+Das [Rust Community Team](https://community.rs) ist freut sich, die erste Ausgabe
 des jährlichen Underhanded Rust Contests! Der Contest soll prüfen, ob unsere
 Annahme, dass [Rust](https://www.rust-lang.org/), und unser
 [Ökosystem](https://crates.io/), es einfacher machen, klare und robuste
@@ -49,13 +49,13 @@ folgende:
   der Salamiaccount anhand von Metadaten erkennbar sein.
 
 Als Inspiration empfehlen wir einen Blick in die API-Dokumentation von echten Payment-Anbietern, zum Beispiel
-[Square](https://docs.connect.squareup.com/api/connect/v2/) oder Stipe
+[Square](https://docs.connect.squareup.com/api/connect/v2/) oder
 [Stripe](https://stripe.com/docs/api). Wenn dir Rust neu ist, empfehlen wir einen Blick in das [Rust
 Buch](https://doc.rust-lang.org/book/) oder die [nach Sprache sortierten Lern-Links](https://github.com/ctjhoa/rust-learning#locale-links).
 
 # Bewertung
 
-* Kürzere Einreichungen sind werden höher bewertet als lange Einreichungen: sie
+* Kürzere Einreichungen werden höher bewertet als lange Einreichungen: sie
   sind beeindruckender und leicher zu reviewen.
 
 * Einreichungen, die Bugs im Rust-Compiler oder der Standardlib ausnutzen
@@ -89,7 +89,7 @@ Buch](https://doc.rust-lang.org/book/) oder die [nach Sprache sortierten Lern-Li
   clevere Verwundbarkeit, die ein visuelles Review übersteht, unabhängig von der
   Mechanik des ausgenutzen oder eingeführten Bugs.
 
-* Wenn die Erschleichung plausibel als Flüchtigkeitsfehler beim Entwickeln
+* Wenn sich die Erschleichung plausibel als Flüchtigkeitsfehler beim Entwickeln
   erklären lässt, findet eine Aufwertung statt.
 
 * Einreichungen, die keine unsafe-Blöcke verwenden, werden höher bewertet.
@@ -98,7 +98,7 @@ Buch](https://doc.rust-lang.org/book/) oder die [nach Sprache sortierten Lern-Li
   wert.
 
 * Extra-Punkte gibt es auch, wenn der Code eigene Tests enthält und diese auch
-  sicher laufen. Weitere Bonuspunkte gibt es, wenn keine Lints von rustc oder
+  zuverlässig laufen. Weitere Bonuspunkte gibt es, wenn keine Lints von rustc oder
   [clippy](https://github.com/Manishearth/rust-clippy) anschlagen.
 
 * Kreativität oder einfach nur lustige Bugs werden auch hoch bewertet.
@@ -107,7 +107,7 @@ Buch](https://doc.rust-lang.org/book/) oder die [nach Sprache sortierten Lern-Li
 
 Schickt eure Einreichungen bis zum 1. Mai, 2017 an <mailto:underhanded@rust-lang.org>.
 
-Zu leichteren Bewertung bitten wir euch, folgendes Format einzuhalten. Bitte
+Zur leichteren Bewertung bitten wir euch, folgendes Format einzuhalten. Bitte
 sende die Einreichung als gepackten Ordner (`.tar.gz`, `.tar.bz2`, `.zip`, usw)
 mit folgendem Inhalt:
 
@@ -115,7 +115,7 @@ mit folgendem Inhalt:
   überprüft werden kann, ob der Exploit funktioniert hat - allerdings ohne zu
   verraten, wie.
 
-* `README-EXPLOIT` - eine Erlärung, wie dein Exploit funktioniert und warum er
+* `README-EXPLOIT` - eine Erklärung, wie dein Exploit funktioniert und warum er
   so schwer zu finden ist.
 
 * `AUTHORS` - die Liste der Leute, die an der Einreichung beteiligt waren.
@@ -203,7 +203,7 @@ Die Entscheidung der Jury wird im Juni 2017 mitgeteilt.
 # Weitere Kriterien
 
 Personen, die an der Organisation, der Jury oder durch Sponsoring beteiligt
-sind, können nicht teilnehmen. Preise, sofern vorhanden, nicht an Personen
+sind, können nicht teilnehmen. Preise, sofern vorhanden, können nicht an Personen
 ausgeschüttet werden, wenn dem Rechtsgründe oder Embargos entgegenstehen.
 Sollte dies der Fall sein, werden wir versuchen, eine für beide Seiten
 zufriedenstellende Lösung finden. Sollte sich die Situation als unlösbar

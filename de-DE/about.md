@@ -4,7 +4,7 @@ title: Über
 lang: de-DE
 ---
 
-Der Underhanded Rust Contest ist eine offizielle Wettbewerb des
+Der Underhanded Rust Contest ist ein offizieller Wettbewerb des
 [Rust Projekts](https://rust-lang.org) zur Entdeckung und Dokumentation von Wegen, subversiven Rust-Code zu schreiben. Die Veranstaltung ist jährlich geplant, mit einem jährlich wechselnden Thema.
 
 # Ausrichter
