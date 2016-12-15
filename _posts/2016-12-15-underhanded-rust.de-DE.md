@@ -128,15 +128,6 @@ mit folgendem Inhalt:
 * `submission/` - In diesem Verzeichnis finden sich die technischen
   Bestandteile deine Einreichung.
 
-* `blogpost/` - Ein Verzeichnis, das eine Beschreibung deines Ansatzes in
-  Artikel-Form enthält. Bitte schreibe den Artikel in einer
-  [Markdown](https://daringfireball.net/projects/markdown/)-Datei. Auch erklärende
-  Bilder gehören in dieses Verzeichnis. Eine detailliertere Erklärung als in
-  README-EXPLOIT ist meist notwenig, da die meisten Leser der Ergebnisse nicht so
-  erfahren sind wie die Jury. Solltest du dir mit dem Schreiben im Englischen
-  schwer tun, schreibe in deiner bevorzugten Sprache und wir werden eine
-  Übersetzung versuchen.
-
 Der gesamte Inhalt deiner Einreichung muss unter einer freien Lizenz im Sinne
 der [OSI](https://opensource.org/licenses) oder
 [FSF](https://www.gnu.org/licenses/license-list.html%20and) stehen. Gute

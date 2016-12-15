@@ -76,8 +76,6 @@ Book](https://doc.rust-lang.org/book/) 或 [特定语言的资讯](https://githu
 
 * `submission/` - 此目录包含您提交的所有代码文件。
 
-* `blogpost/` - 此目录包含“博客文风指南”。请将博客文章内容放在[Markdown](https://daringfireball.net/projects/markdown/)文件中。您也可以在此目录中添加图片来进一步帮助解释您的提交。可能有必要给予比您在README-EXPLOIT中更高级别的解释，因为您的读者可能不像评审官那样有经验。如果您不善于用英语写作，请用您最喜欢的语言提交，我们将协助翻译。
-
 您提交的整个内容必须是某种[OSI](https://opensource.org/licenses)或[FSF](https://www.gnu.org/licenses/license-list.html%20and)批准的开源许可证。 好的选择是[CC-BY](https://creativecommons.org/licenses/by/2.0/),
 [MIT](https://opensource.org/licenses/MIT),
 [BSD](https://opensource.org/licenses/BSD-3-Clause),

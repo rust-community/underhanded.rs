@@ -136,15 +136,6 @@ comprimido (`.tar.gz`, `.tar.bz2`, `.zip`, etc), con los siguientes contenidos:
  * `submission/` - Un directorio que contenga los contenidos técnicos de tu
    entrega.
 
- * `blogpost/` - Un directorio conteniendo una explicación de tu entrada en
-   formato "blog post". Por favor escribe el contenido de tu post en un fichero
-   [Markdown](https://daringfireball.net/projects/markdown/). Por favor incluye
-   imágenes en este directorio si ayudará a explicar tu entrega. Puede que sea
-   necesario dar una explicación a más alto nivel que la que contiene el fichero 
-   README-EXPLOIT, ya que el lector puede no tener tanta experiencia como los
-   jueces. Si te resultara difícil escribirlo en Inglés, por favor envíalo en tu
-   idioma favorito y te ayudaremos con la traducción.
-
 Los contenidos completos de tu entrega deben estar bajo alguna licencia de
 código abierto aprobada por la [OSI](https://opensource.org/licenses) o la
 [FSF](https://www.gnu.org/licenses/license-list.html). Algunas buenas candidatas
