@@ -15,16 +15,16 @@ des jährlichen Underhanded Rust Contests anzukündigen,
 inspiriert von den
 [Underhanded C](http://www.underhanded-c.org/) und
 [Underhanded Crypto](https://underhandedcrypto.com/) Contests.
-Unser Ziel mit [Rust](https://www.rust-lang.org/) ist es, es einfacher zu machen,
-zuverlässige und vertrauenswürdig Software zu schreiben,
-die gegen unbeabsichtigte Sicherheitslücken resistent ist,
-aber viel seltener wurde Rusts Fähigkeit vor vorsätzlichen Schwachstellen,
-die auch einer Überprüfung standhalten, zu schützen angegriffen.
-Der Contest wurde entwickelt um unsere Programmiersprache
-und das [weitere Rust Ökosystem](https://crates.io/) zu prüfen,
-uns Schwachpunkte aufzuzeigen
-und zu zeigen wie wir diese beheben können.
-Wir fordern euch dazu auf Rust anzugreifen - mit verständlichem, leicht lesbarem Code.
+Ein Ziel von [Rust](https://www.rust-lang.org/) ist es, Software schreiben zu können,
+welche zuverlässig, vertrauenswürdig und ebenso resistent gegenüber unbeabsichtigter Sicherheitslücken ist.
+Bisher nur wenig getestet wurde aber Rusts Fähigkeit,
+vor *vorsätzlichen* Schwachstellen zu schützen,
+die auch einem Code Review standhalten.
+Der Contest wurde entwickelt, um unsere Programmiersprache
+und das [Rust Ökosystem](https://crates.io/) zu prüfen,
+sowie uns Schwachpunkte aufzuzeigen
+und zu zeigen, wie wir diese beheben können.
+Wir fordern euch dazu auf, Rust anzugreifen - mit verständlichem, leicht lesbarem Code.
 Kannst du 100% sicheren Rust-Code schreiben,
 der einen Logik-Bug verbirgt
 oder einen Exploit in [unsafe](https://doc.rust-lang.org/book/unsafe.html) Rust verstecken,
