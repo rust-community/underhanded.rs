@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "El Underhanded Rust Contest 2016"
-date:   2016-12-07 11:23:34 -1000
-categories: underhanded
+title: "El Underhanded Rust Contest 2016"
+date: 2016-12-07 11:23:34 -1000
+categories: blog/es-ES
 lang: es-ES
 ---
 

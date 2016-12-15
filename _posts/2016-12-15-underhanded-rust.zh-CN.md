@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "2016 Rust黑手大赛"
-date:   2016-12-07 11:23:34 -1000
-categories: underhanded
+title: "2016 Rust黑手大赛"
+date: 2016-12-07 11:23:34 -1000
+categories: blog/zh-CN
 lang: zh-CN
 ---
 
