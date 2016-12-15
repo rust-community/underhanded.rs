@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2016 Rust黑手大赛"
+title: "Rust黑手大赛"
 categories: blog
 lang: zh-CN
 ---
