@@ -11,18 +11,23 @@ lang: de-DE
 [简体中文]({% post_url 2016-12-15-underhanded-rust.zh-CN %})
 
 Das [Rust Community Team](https://community.rs) freut sich, die erste Ausgabe
-des jährlichen Underhanded Rust Contests anzukündigen! Der Contest soll prüfen, ob unsere
-Annahme, dass [Rust](https://www.rust-lang.org/), und unser
-[Ökosystem](https://crates.io/), es einfacher machen, klare und robuste
-Software zu bauen. Inspiriert von den [Underhanded
-C](http://www.underhanded-c.org/) und [Underhanded
-Crypto](https://underhandedcrypto.com/) Contests, fordern wir euch dazu auf,
-diese Annahme anzugreifen - mit verständlichem, leicht lesbarem Code.  Wir
-brauchen eure Hilfe um herauszufinden, wo die Lücken sind - und wie wir sie
-eventuell schliessen können. Kannst du 100% sicheren Rust-Code schreiben, der
-einen Logik-Bug verbirgt oder einen Exploit in
-[unsafe](https://doc.rust-lang.org/book/unsafe.html) verstecken, der einen
-Audit übersteht? Jetzt hast du die Gelegenheit!
+des jährlichen Underhanded Rust Contests anzukündigen,
+inspiriert von den
+[Underhanded C](http://www.underhanded-c.org/) und
+[Underhanded Crypto](https://underhandedcrypto.com/) Contests.
+Ein Ziel von [Rust](https://www.rust-lang.org/) ist es, Software schreiben zu können,
+welche zuverlässig, vertrauenswürdig und ebenso resistent gegenüber unbeabsichtigter Sicherheitslücken ist.
+Bisher nur wenig getestet wurde aber Rusts Fähigkeit,
+vor *vorsätzlichen* Schwachstellen zu schützen,
+die auch einem Code Review standhalten.
+Der Contest wurde entwickelt, um unsere Programmiersprache
+und das [Rust Ökosystem](https://crates.io/) zu prüfen,
+sowie uns Schwachpunkte aufzuzeigen
+und zu zeigen, wie wir diese beheben können.
+Wir fordern euch dazu auf, Rust anzugreifen - mit verständlichem, leicht lesbarem Code.
+Kannst du 100% sicheren Rust-Code schreiben, der einen Logik-Bug verbirgt?
+Oder einen Exploit in [unsafe](https://doc.rust-lang.org/book/unsafe.html) Rust verstecken, der einen Audit übersteht?
+Jetzt hast du die Gelegenheit!
 
 # Die Aufgabe: Salami Slicing
 
@@ -178,15 +183,15 @@ Andernfalls müssen wir die Einreichung ablehnen.
 
 # Preise
 
-* Alle Gewinner erhalten ein Ferris-Plüschtier (limitierte Edition) und Sticker
+* Alle Gewinner erhalten ein [Ferris-Plüschtier (limitierte Edition)](https://pbs.twimg.com/media/Ci2IJlJUgAEojWr.jpg) und/oder einen [Metall-Ferris](http://i.imgur.com/oXNReiv.jpg) sowie viele Sticker.
 * Unser aller Anerkennung (und Furcht)!
 
-Wenn ihr weitere Preise sponsorn wollt, wendet euch bitte an
+Wenn ihr weitere Preise sponsern wollt, wendet euch bitte an
 <mailto:underhanded@rust-lang.org>.
 
 # Jury
 
-Die Jury wird aus Mitgliedern de Rust Core und Community Teams bestehen, sowie
+Die Jury wird aus Mitgliedern des Rust Core und Community Teams bestehen, sowie
 weiteren Freiwilligen aus der Rust Community.
 
 # Gewinnmitteilung
@@ -199,7 +204,7 @@ Personen, die an der Organisation, der Jury oder durch Sponsoring beteiligt
 sind, können nicht teilnehmen. Preise, sofern vorhanden, können nicht an Personen
 ausgeschüttet werden, wenn dem Rechtsgründe oder Embargos entgegenstehen.
 Sollte dies der Fall sein, werden wir versuchen, eine für beide Seiten
-zufriedenstellende Lösung finden. Sollte sich die Situation als unlösbar
+zufriedenstellende Lösung zu finden. Sollte sich die Situation als unlösbar
 herausstellen, werden die Preise an eine gemeinnützige Organisation gespendet,
 deren Zweck angemessen ist.
 
