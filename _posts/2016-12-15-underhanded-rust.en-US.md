@@ -68,7 +68,7 @@ Specific](https://github.com/ctjhoa/rust-learning#locale-links) links.
   impressive and easier to review.
 
 * Submissions are worth more points if you use a stable Rust compiler (1.13.0
-  or later), or a compiler being shipped by a distrobution like Ubuntu or
+  or later), or a compiler being shipped by a distribution like Ubuntu or
 Fedora.
 
 * Submissions are worth more points if you exploit bugs in the Rust compiler or
