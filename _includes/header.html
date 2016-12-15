@@ -1,6 +1,6 @@
 <header class="site-header" role="banner">
 
-  <h1>Work in Progress - Please don't announce this yet</h1>
+  <h1>Work in Progress - Do not announce Yet</h1>
 
   <div class="wrapper">
 
@@ -16,7 +16,13 @@
       </span>
 
       <div class="trigger">
-        <a class="page-link" href="/about">About</a>
+         <p>
+         {% if page.lang == "de-DE" %}
+           <a class="page-link" href="about">Über</a>
+         {% else %}
+           <a class="page-link" href="about">About</a>
+         {% endif %}
+         </p>
       </div>
     </nav>
 

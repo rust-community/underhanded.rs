@@ -12,7 +12,7 @@ competition, with a different theme for each year.
 # Contest Organizers
 
 This contest is organized by the [Rust Community Team](https://community.rs)
-and other volunteers in the rust community.
+and other volunteers in the Rust community.
 
 # Code of Conduct
 
