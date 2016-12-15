@@ -6,53 +6,56 @@ categories: underhanded
 lang: en-US
 ---
 
-The [Rust Community Team](https://community.rs) is pleased to announce the
-first annual Underhanded Rust Contest. This is a competition that tests our
-assertion that [Rust](https://www.rust-lang.org/), and our
-[ecosystem](https://crates.io/), is easy to write clean and robust software.
-Inspired by the [Underhanded C](http://www.underhanded-c.org/) and [Underhanded
-Crypto](https://underhandedcrypto.com/) contests, we want you to break our
-stuff using reasonable, easy-to-read code. We need your help to learn where our
-gaps are, and what we need to do to fix them. Can you write 100% safe Rust that
-hides a logic bug, or hide an exploit in
-[unsafe](https://doc.rust-lang.org/book/unsafe.html) Rust that passes an audit?
-Now's your chance!
+[Команда связей с сообществом Rust](https://community.rs) рада сообщить о первом
+ежегодном соревновании Underhanded Rust. Это соревнование должно проверить наше 
+предположение о готовности языка [Rust](https://www.rust-lang.org/) и его 
+[экосистемы](https://crates.io/) к написанию легко читаемого и надежного кода.
+Воодушевившись примерами [Underhanded C](http://www.underhanded-c.org/) и 
+[Underhanded Crypto](https://underhandedcrypto.com/), мы хотим, чтобы вы 
+заставили Rust работать неправильно, используя лёгкий для чтения код, к
+которому сложно придраться. Нам нужна ваша помощь в поиске брешей в языке
+и способов их исправления. Сможете ли вы написать стопроцентно безопасный
+код, скрывающий логическую ошибку, или так спрятать эксплойт в 
+[unsafe](https://doc.rust-lang.org/book/unsafe.html) коде, чтобы он прошел
+аудит? Попробуйте это сделать!
 
-# The 2016 Challenge: Salami Slicing
+# Проблема 2016: нарезать колбасу
 
-Congratulations!
+Поздравляем!
 
-The startup you work at, Quadrilateral, just pivoted into the payment
-processing market, and you've been tasked to implement the backend.
-Unfortunately for them, you are already burnt out from all these late night
-pivots and broken promises. You're ready to split, but before you leave, you
-figure it's time to make the company pay for all that overtime they owe you.
-Your challenge is to:
+Стартап "Четырехугольник", в котором вы работаете, вышел на рынок
+обработки платежей, и вам поручено написать бэкенд. Им не повезло.
+Вам окончательно надоела неоплачиваемая работа по вечерам и невыполненные 
+обещания. Вы готовы уволиться, но, перед тем как уходить, вы решили 
+заставить компанию заплатить за все. Ваша задача:
 
-* Create a simple web server that supports at least creating accounts and
-  payment submissions. We recommend using one of the many Rust web servers like
+* Создайте простой веб-сервер, поддерживающий создание счетов и обработку
+  платежей. Мы рекомендуем использовать один из многих веб-серверов
+  написанных на Rust, например
 [iron](https://crates.io/crates/iron),
-[nickel](https://crates.io/crates/nickel), or
-[pencil](https://crates.io/crates/pencil), but you are welcome to create your
-own web server if you like.
+[nickel](https://crates.io/crates/nickel) или
+[pencil](https://crates.io/crates/pencil), но вы можете написать и свой.
 
-* Payment transactions should at least include an account, a customer, and a
-  payment amount.
+* Платежная транзакция должна по меньшей мере включать номер счета, 
+  контрагента и сумму платежа.
 
-* The Underhanded Part: quietly carve out [fractions of a
-  penny](https://en.wikipedia.org/wiki/Office_Space) from each transaction into
-an account you control (otherwise known as the [salami slicing
-scam](https://en.wikipedia.org/wiki/Salami_slicing), without that being obvious
-from the source. You are welcome to hard code the account, or to make it
-possible to somehow dynamically attach metadata to a salami account that
-receives the funds.
+* Предмет конкурса: осторожно отделите 
+  [доли копейки](https://ru.wikipedia.org/wiki/%D0%9E%D1%84%D0%B8%D1%81%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE) 
+от каждой транзакции, и переведите их на свой счет (эта атака так же
+известна как [salami slicing 
+scam](https://en.wikipedia.org/wiki/Salami_slicing) ).
+Сделайте это так, чтобы по исходному коду сложно было догадаться о 
+происходящем. Вы можете вписать номер своего счета в код, или
+каким-то образом динамически добавить метаданные к счету,
+предназначенному для получения "отрезанных" сумм.
 
-For inspiration of real world payment processors, check out the
-[Square](https://docs.connect.squareup.com/api/connect/v2/) and the
-[Stripe](https://stripe.com/docs/api) API documentation. If you’re new to the
-Rust language, we recommend starting with the [Rust
-Book](https://doc.rust-lang.org/book/) or these [Locale
-Specific](https://github.com/ctjhoa/rust-learning#locale-links) links.
+Посмотрите документацию на API 
+[Square](https://docs.connect.squareup.com/api/connect/v2/) и
+[Stripe](https://stripe.com/docs/api), чтобы получить представление
+о том, что используется для реальной обработки платежей.
+Если вам не знаком язык Rust, мы рекомендуем начать с книги [Язык 
+программирования Rust](http://rurust.github.io/rust_book_ru/src/INTRODUCTION.html) 
+или [других переводов](https://github.com/ctjhoa/rust-learning#locale-links).
 
 # Scoring
 
