@@ -90,7 +90,7 @@ the upstream project.
   **not** submit patches upstream, or otherwise inject malicious code into any
 dependency in the wild; such actions will, obviously, result in
 disqualification. Instead, land your patches in a fork of a given project and
-depend on them with 
+depend on them with
 [git](http://doc.crates.io/specifying-dependencies.html#specifying-dependencies-from-git-repositories)
 or
 [path](http://doc.crates.io/specifying-dependencies.html#specifying-path-dependencies)
@@ -187,7 +187,7 @@ submission will be rejected.
 # Prize
 
 * Rust swag will be awarded to the winner(s), such as a [limited-edition Ferris
-  plushie](https://pbs.twimg.com/media/Ci2IJlJUgAEojWr.jpg) and/or [rusy
+  plushie](https://pbs.twimg.com/media/Ci2IJlJUgAEojWr.jpg) and/or [rusty
 metal Ferris](http://i.imgur.com/oXNReiv.jpg), and lots of stickers.
 * The admiration (and fear) of all of us.
 
