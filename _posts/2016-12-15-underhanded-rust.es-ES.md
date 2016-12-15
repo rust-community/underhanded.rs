@@ -6,6 +6,11 @@ categories: blog
 lang: es-ES
 ---
 
+{:.post-meta}
+[Deutsche]({% post_url 2016-12-15-underhanded-rust.de-DE %}),
+[English]({% post_url 2016-12-15-underhanded-rust.en-US %}),
+[简体中文]({% post_url 2016-12-15-underhanded-rust.zh-CN %})
+
 El [Rust Community Team](https://community.rs) está encantado de anunciar el
 primer Underhanded Rust Contest. Esta es una competición que pone a prueba
 nuestra afirmación de que con [Rust](https://www.rust-lang.org/), y nuestro

@@ -4,7 +4,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+    <a class="site-title" href="{{ "/" | append: page.lang | relative_url }}">{{ site.title | escape }}</a>
 
     <nav class="site-nav">
       <span class="menu-icon">
@@ -16,15 +16,17 @@
       </span>
 
       <div class="trigger">
-         <p>
-         {% if page.lang == "de-DE" %}
-           <a class="page-link" href="about">Über</a>
-         {% elsif page.lang == "es-ES" %}
-           <a class="page-link" href="about">Acerca De</a>
-         {% else %}
-           <a class="page-link" href="about">About</a>
-         {% endif %}
-         </p>
+        <p>
+        {% if page.lang == "de-DE" %}
+        <a class="page-link" href="{{ "/" | append: page.lang | relative_url }}/about">Über</a>
+        {% elsif page.lang == "es-ES" %}
+        <a class="page-link" href="{{ "/" | append: page.lang | relative_url }}/about">Acerca De</a>
+        {% elsif page.lang == "zh-CN" %}
+        <a class="page-link" href="{{ "/" | append: page.lang | relative_url }}/about">关于</a>
+        {% else %}
+        <a class="page-link" href="{{ "/" | append: page.lang | relative_url }}/about">About</a>
+        {% endif %}
+        </p>
       </div>
     </nav>
 
