@@ -1,12 +1,19 @@
 <footer class="site-footer">
 	<div class="wrapper">
 		<p>
-		{% if page.lang == "de-DE" %}
+		{% if page.lang == "en-US" %}
 		Unsere Seite in anderen Sprachen&nbsp;:
 		<a href="/en-US/">English</a>
+		<a href="/es-ES/">Spanish</a>
+		{% elsif page.lang == "es-ES" %}
+		Nuestro sitio en otros idiomas&nbsp;:
+		<a href="/en-US/">English</a>
+		<a href="/de-DE/">German</a>
 		{% else %}
 		Our site in other languages&nbsp;:
 		<a href="/de-DE/">German</a>
+		<a href="/es-ES/">Spanish</a>
+		<a href="/zh-CN/">Simplified Chinese</a>
 		{% endif %}
 		</p>
 
