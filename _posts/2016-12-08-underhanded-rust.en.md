@@ -136,7 +136,7 @@ folder (`.tar.gz`, `.tar.bz2`, `.zip`, etc) with the following contents:
 
 The entire contents of your submission must be under some sort of any
 [OSI](https://opensource.org/licenses) or
-[FSF](https://www.gnu.org/licenses/license-list.html%20and) approved open
+[FSF](https://www.gnu.org/licenses/license-list.html) approved open
 source license. Good candidates are
 [CC-BY](https://creativecommons.org/licenses/by/2.0/),
 [MIT](https://opensource.org/licenses/MIT),
