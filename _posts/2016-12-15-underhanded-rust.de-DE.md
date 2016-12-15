@@ -25,10 +25,8 @@ und das [Rust Ökosystem](https://crates.io/) zu prüfen,
 sowie uns Schwachpunkte aufzuzeigen
 und zu zeigen, wie wir diese beheben können.
 Wir fordern euch dazu auf, Rust anzugreifen - mit verständlichem, leicht lesbarem Code.
-Kannst du 100% sicheren Rust-Code schreiben,
-der einen Logik-Bug verbirgt
-oder einen Exploit in [unsafe](https://doc.rust-lang.org/book/unsafe.html) Rust verstecken,
-der einen Audit übersteht?
+Kannst du 100% sicheren Rust-Code schreiben, der einen Logik-Bug verbirgt?
+Oder einen Exploit in [unsafe](https://doc.rust-lang.org/book/unsafe.html) Rust verstecken, der einen Audit übersteht?
 Jetzt hast du die Gelegenheit!
 
 # Die Aufgabe: Salami Slicing
