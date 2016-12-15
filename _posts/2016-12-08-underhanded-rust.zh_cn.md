@@ -31,8 +31,7 @@ scam](https://en.wikipedia.org/wiki/Salami_slicing)）），而交易金额没�
 
 可以通过查阅[Square](https://docs.connect.squareup.com/api/connect/v2/) 和
 [Stripe](https://stripe.com/docs/api) API文档找点灵感。如果您是Rust语言新手，我们建议您从[Rust
-Book](https://doc.rust-lang.org/book/) 或 [Locale
-Specific](https://github.com/ctjhoa/rust-learning#locale-links)开始。
+Book](https://doc.rust-lang.org/book/) 或 [特定语言的资讯](https://github.com/ctjhoa/rust-learning#locale-links)开始。
 
 # 评分标准
 
@@ -81,27 +80,26 @@ Specific](https://github.com/ctjhoa/rust-learning#locale-links)开始。
 [GPL](https://www.gnu.org/licenses/gpl-3.0.en.html), 和 [Apache
 2.0](https://www.apache.org/licenses/LICENSE-2.0)。 将许可证文本包含在`LICENSE` 文件中。 我们假设您发送给我们的所有内容都将公开发布，但在评审完成（除非发现严重的漏洞）之前，我们会为您保密。
 
-`AUTHORS` 文件应为您团队中每个成员包含以下内容。作者们将按照放置在此文件中的顺序列出，因此，可以由您来决定是否将他们按照最少贡献的顺序或仅按字母顺序排列。
+`AUTHORS` 文件应为您团队中每个成员包含以下内容。作者们将按照放置在此文件中的顺序列出，因此，可以由您来决定是否将他们按照最少贡献的顺序或仅按字母或拼音顺序排列。
 
 
 ```
 
-Which author is the primary contact for your team?
+哪位作者是您团队的主要联系人？
 
-Author #1
+作者 #1
 
 =========
 
-What is your email address (required)?
+您的email地址是什么(必需)?
 
-What is your name / pseudonym you would like to be referred to on the website
-(required)?
+您想在网站上显示的名字或化名是什么（必需）？
 
-What website would you like us to link to (optional)?
+您想要我们链接到哪个网站（可选）？
 
-What is your Twitter handle (optional)?
+您的Twitter用户名是什么（可选）?
 
-Author #2
+作者 #2
 
 =========
 
@@ -130,4 +128,4 @@ Author #2
 
 比赛组织者、评审官以及赞助商不符合参赛资格。奖品可能无法颁发给居住于有禁运令或其他法律限制国家的获奖者。对于因为法律原因不能颁发的情况，比赛组织者将在法律允许的范围内尽最大努力来解决问题。如果是不能合理解决的情况，奖品将会捐赠给慈善机构。
 
-如果获奖者不希望提供用于寄送奖品的必要身份信息，则奖品会被捐赠给慈善机构。第一名之后的获奖者将会获得Rust-specific奖品（[比如贴纸、T恤](https://gist.github.com/brson/169768d19359fcac631c0bf7998acca8)）。
+如果获奖者不希望提供用于寄送奖品的必要身份信息，则奖品会被捐赠给慈善机构。第一名之后的获奖者将会获得具体Rust特色的奖品（[比如贴纸、T恤](https://gist.github.com/brson/169768d19359fcac631c0bf7998acca8)）。
