@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "2016 Rust黑手大赛"
-date: 2016-12-14 09:00:00 -0800
 categories: blog
 lang: zh-CN
 ---

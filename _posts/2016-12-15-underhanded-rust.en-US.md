@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "The 2016 Underhanded Rust Contest"
-date: 2016-12-14 09:00:00 -0800
 category: blog
 lang: en-US
 ---
