@@ -17,7 +17,7 @@ inspiriert von den
 [Underhanded Crypto](https://underhandedcrypto.com/) Contests.
 Unser Ziel mit [Rust](https://www.rust-lang.org/) ist es, es einfacher zu machen,
 zuverlässige und vertrauenswürdig Software zu schreiben,
-die gegen unbeabsichtige Sicherheitslücken resistent ist,
+die gegen unbeabsichtigte Sicherheitslücken resistent ist,
 aber viel seltener wurde Rusts Fähigkeit vor vorsätzlichen Schwachstellen,
 die auch einer Überprüfung standhalten, zu schützen angegriffen.
 Der Contest wurde entwickelt um unsere Programmiersprache
