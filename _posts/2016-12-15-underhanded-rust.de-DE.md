@@ -10,8 +10,8 @@ lang: de-DE
 [Español]({% post_url 2016-12-15-underhanded-rust.es-ES %}),
 [简体中文]({% post_url 2016-12-15-underhanded-rust.zh-CN %})
 
-Das [Rust Community Team](https://community.rs) ist freut sich, die erste Ausgabe
-des jährlichen Underhanded Rust Contests! Der Contest soll prüfen, ob unsere
+Das [Rust Community Team](https://community.rs) freut sich, die erste Ausgabe
+des jährlichen Underhanded Rust Contests anzukündigen! Der Contest soll prüfen, ob unsere
 Annahme, dass [Rust](https://www.rust-lang.org/), und unser
 [Ökosystem](https://crates.io/), es einfacher machen, klare und robuste
 Software zu bauen. Inspiriert von den [Underhanded
