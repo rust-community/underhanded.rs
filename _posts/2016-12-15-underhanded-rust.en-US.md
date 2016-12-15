@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The 2016 Underhanded Rust Contest"
+title: "The Underhanded Rust Contest"
 category: blog
 lang: en-US
 ---
