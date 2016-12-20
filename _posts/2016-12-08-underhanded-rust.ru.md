@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "The 2016 Underhanded Rust Contest"
+title:  "Соревнование Underhanded Rust 2016"
 date:   2016-12-07 11:23:34 -1000
 categories: underhanded
-lang: en-US
+lang: ru-RU
 ---
 
 [Команда связей с сообществом Rust](https://community.rs) рада сообщить о первом
