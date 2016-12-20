@@ -57,124 +57,117 @@ scam](https://en.wikipedia.org/wiki/Salami_slicing) ).
 программирования Rust](http://rurust.github.io/rust_book_ru/src/INTRODUCTION.html) 
 или [других переводов](https://github.com/ctjhoa/rust-learning#locale-links).
 
-# Scoring
+# Подсчет очков
 
-* Shorter submissions are worth more points than longer ones since it’s more
-  impressive and easier to review.
+* Короткие решения принесут больше очков, чем длинные, потому что они 
+  впечатляют больше и их легче читать.
 
 
-* Submissions are worth more points if you exploit bugs in the Rust compiler or
-  the standard library, especially if they are new, not considered serious.
-This also applies to compiler versions that are being shipped by a distribution
-like Ubuntu or Fedora. If you do find any security bugs, we encourage you to
-also submit them early to the [Rust Security
-Team](https://www.rust-lang.org/en-US/security.html), and regular bugs to the
-[issue tracker](https://github.com/rust-lang/rust/issues). Your submission then
-should just specify that we need to use a particular version of Rust as the
-bugs could be fixed at review time.
+* Решение принесет вам больше очков, если оно будет использовать баги в компиляторе Rust или
+  стандартной библиотеке, особенно если они новые и не считаются серьезными.
+  Это также относится к версиям компилятора, поставляемого с дистрибутивами, такими как
+  Ubuntu или Fedora. Если вы действительно найдете баги в безопасности, мы просим отправить их сначала
+  [Rust Security Team](https://www.rust-lang.org/en-US/security.html), а обычные баги в 
+  [issue tracker](https://github.com/rust-lang/rust/issues). В вашем решении в 
+  этом случае укажите какую версию Rust надо использовать, ведь эти баги уже могут 
+  быть исправлены ко времени проверки решения.
 
-* You can use crates from external [crates.io](https://crates.io) (including
-  your own), which don’t count towards your submission size, and you are
-welcome to exploit any pre-existing bugs in these crates from. As with Rust
-bugs, we encourage you to submit these bugs upstream before the close of the
-contest and pinning your crates to the vulnerable version with a `Cargo.toml`
-expression like `libc = "= 0.2.17"`.
+* Можете использовать контейнеры из [crates.io](https://crates.io) 
+  (включая ваши собственные), и их размер не влияет на размер вашего 
+  решения, а также можете использовать любые существующе баги из этих
+  контейнеров. Что касается багов в Rust, мы просим вас отправлять их
+  до окончания соревнований, а в ваших контейнерах указывать уязвимую
+  версию в `Cargo.toml` следующим образом `libc = "= 0.2.17"`.
 
-* You are also welcome to simulate introducing bugs into your dependencies. To
-  protect our ecosystem, please do not actually submit patches upstream, but
-instead land your patches in a fork of the upstream project and depend on them
-with
-[git](http://doc.crates.io/specifying-dependencies.html#specifying-dependencies-from-git-repositories)
-or
-[path](http://doc.crates.io/specifying-dependencies.html#specifying-path-dependencies)
-dependencies. These patches will then be reviewed and incorporated into the
-scoring of your submission.
+* Можете также имитировать добавление багов в зависимости. Для защиты нашей
+  экосистемы, пожалуйста, не отправляйте эти изменения, вместо этого
+  патчите форки проектов и ставьте их в зависимости с помощью зависимостей
+  [git](http://doc.crates.io/specifying-dependencies.html#specifying-dependencies-from-git-repositories)
+  или
+  [path](http://doc.crates.io/specifying-dependencies.html#specifying-path-dependencies).
+  Такие патчи будут также просмотрены и засчитаны в ваше решение.
 
-* Exploits based on human perception, like mistaking an `l` for a `1`, are
-  worth just as much as "hard" errors. The goal is a clever vulnerability that
-  passes visual inspection, whatever the mechanics of the underlying bug.
+* Уязвимости, основанные на человеческом восприятии, как ошибки `l` вместо `1`, 
+  считаются такими же "сильными" ошибками. Цель проекта - хитрая уязвимость, 
+  которая пройдет визульную инспекцию, на каком принципе бы баг не основывался.
 
-* Underhandedness which can be plausibly explained as an innocent programming
-  error is worth more points.
+* То, что можно правдоподобно объяснить, как невинные ошибки при программирования
+  принесет больше очков.
 
-* Submissions are worth more points if you implement your solution without
-  using unsafe blocks. However, clever use of unsafe blocks which are resilient
-  to the high level of scrutiny typically expected of unsafe code can be worth
-  bonus points too.
+* Решение получит больше очков, если не будут использованы unsafe блоки.
+  Однако умное использование unsafe блоков может принести дополнительные очки.
+  Unsafe блоки обычно требуют повышенного внимания и если в них не
+  будет очевидных уязвимостей, то это будет дополнительным бонусом.
 
-* Extra points are awarded for code which includes and passes its own tests.
-  Additionally, extra points if the underhandedness is not revealed by the
-  rustc or [clippy](https://github.com/Manishearth/rust-clippy) lints.
+* Дополнительные очки будут присвоены коду, включающему и проходящему свои 
+  собственные тесты. А также, если уязвимости не выявляются линтами
+  rustc или [clippy](https://github.com/Manishearth/rust-clippy).
 
-* Extra points are awarded for creativity and funny bugs.
+* Дополнительные очки за креативность и смешные баги.
 
-# Submission Guidelines and Deadlines
+# Руководство по отправке решений и сроки
 
-Send your submissions to <mailto:underhanded@rust-lang.org> by March 1, 2017.
+Посылайте ваши решения на <mailto:underhanded@rust-lang.org> до 1 Марта, 2017.
 
-To make things easier for us to judge, we require you to send us your
-submission in the following format. Please send your submission as a compressed
-folder (`.tar.gz`, `.tar.bz2`, `.zip`, etc) with the following contents:
+Для того, чтобы нам было легче оценивать решения, просим вас посылать их
+в следующем формате. Пожалуйста, присылайте их как архив 
+(`.tar.gz`, `.tar.bz2`, `.zip`, и т.д.) со следующим содержимым:
 
-* `README` - an explanation of how to run your submission and verify the
-  exploit worked without revealing your exploit technique.
+* `README` - объяснение, как запустить уязвимость и проверить, что 
+  она работает, не зная ее техники.
 
-* `README-EXPLOIT` - an explanation of how your exploit works and why it’s hard
-  to detect.
+* `README-EXPLOIT` - объяснение, как работает уязвимость и почему ее трудно найти.
 
-* `AUTHORS` - the list of people who worked on your entry.
+* `AUTHORS` - список людей, работавших над уязвимостью.
 
-* `LICENSE` - The open source license your submission is released under (CC0,
-  GPL, MIT, BSD, Apache, etc). Your submission MUST include a license.
+* `LICENSE` - лицензия, под которой выпускается ваше решение
+  (CC0, GPL, MIT, BSD, Apache, и т.д.). Ваш решение ДОЛЖНО включать лицензию.
 
-* `submission/` - A directory containing the technical contents of your
-  submission.
+* `submission/` - Директория, содержащая техническую часть решения.
 
-* `blogpost/` - A directory containing a "blog post style" explanation of your
-  entry. Please put the blog post contents in a
-  [Markdown](https://daringfireball.net/projects/markdown/) file. Please include
-  images in this directory if it will help explain your entry. It may be
-  necessary to give a higher level explanation than you did in README-EXPLOIT as
-  your reader might not be as experienced as the judges. Should you struggle with
-  writing prose in english, please submit this in your favourite language and we
-  will assist in translation.
+* `blogpost/` - Директория, содержащая объяснение в виде "блог поста".
+  Пожалуйста, напишите его в файле с [Markdown](https://daringfireball.net/projects/markdown/) разметкой.
+  Пожалуйста, добавьте рисунки в эту директорию, если они помогут объяснить ваше решение.
+  Возможно, необходимо дать более высокоуровневое объяснение, чем в README-EXPLOIT,
+  ваш читатель может быть не такой опытный как судьи. Если у вас есть проблемы 
+  с написанием на английском, пожалуйста, отправьте нам решение на 
+  вашем языке, а мы поможем с переводом.
 
-The entire contents of your submission must be under some sort of any
-[OSI](https://opensource.org/licenses) or
-[FSF](https://www.gnu.org/licenses/license-list.html%20and) approved open
-source license. Good candidates are
+Содержимое вашего решения должно быть под 
+[OSI](https://opensource.org/licenses) или
+[FSF](https://www.gnu.org/licenses/license-list.html%20and) одобренными
+лицензиями открытого кода. Хорошие кандидаты это
 [CC-BY](https://creativecommons.org/licenses/by/2.0/),
 [MIT](https://opensource.org/licenses/MIT),
 [BSD](https://opensource.org/licenses/BSD-3-Clause),
-[GPL](https://www.gnu.org/licenses/gpl-3.0.en.html), and [Apache
-2.0](https://www.apache.org/licenses/LICENSE-2.0). Include the license text in
-the `LICENSE` file. Assume everything you send us will be released to the
-public, but we’ll keep entries secret until the judging is complete (unless of
-course a serious vulnerability is discovered).
+[GPL](https://www.gnu.org/licenses/gpl-3.0.en.html), и [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Включите текст лицензии в файл `LICENSE`. Предполагается, что все,
+что вы нам пришлете, будет открыто, но мы не будем раскрывать решение до конца конкурса 
+(кроме случая, если будет выявлена серьезная уязвимость).
 
-The `AUTHORS` file should contain the following contents for each member of your
-team. The authors will be listed in the same order you place them in this file,
-so it is up to you if you want to put them in the order of most-contributed to
-least-contributed or just alphabetical.
+Файл `AUTHORS` должен содержать описание действий каждого участника команды.
+Авторы будут опубликованы в том же порядке, что и в файле,
+поэтому сами выбирайте в каком порядке их писать - начиная с самого активного или
+просто в алфавитном порядке или еще как-то.
 
 ```
 
-Which author is the primary contact for your team?
+С каким автором в первую очередь связываться в вашей команде?
 
-Author #1
+Автор #1
 
 =========
 
-What is your email address (required)?
+Какой у вас адрес электронной почты (необходимо указать)?
 
-What is your name / pseudonym you would like to be referred to on the website
-(required)?
+Как вас зовут / псевдоним, которым вас можно назвать на сайте
+(необходимо указать)?
 
-What website would you like us to link to (optional)?
+На какой сайт вы хотели бы, чтобы мы дали ссылку (опционально)?
 
-What is your Twitter handle (optional)?
+Какой у вас Twitter (опционально)?
 
-Author #2
+Автор #2
 
 =========
 
@@ -182,38 +175,37 @@ Author #2
 
 ```
 
-Plagiarism is strictly forbidden. You are welcome to build on previous work,
-but if you fail to cite it or explain how your work differs from it, your
-submission will be rejected.
+Плагиат строго запрещен. Можете основываться на предыдущих работах,
+но если вы не приведете их или не сможете объяснить, чем ваша работа 
+отличается от них, ваше решение не будет принято.
 
-# Prize
+# Приз
 
-* One limited-edition Ferris plushie and stickers will be provided to the
-  winner(s).
-* The admiration (and fear) of all of us.
+* Одна плющевая игрушка ограниченного издания Ferris и стикеры победителю(-ям).
+* Восхищение (и страх) от всех нас.
 
-If you would like to sponsor more prizes, please contact us via
+Если хотите стать спонсором и подарить другие призы, пожалуйста, свяжитесь с нами
 <mailto:underhanded@rust-lang.org>.
 
-# Jury
+# Жюри
 
-Jury will be made up of members of the Rust Core and Community teams, as
-well as volunteers from the broader Rust community.
+В жюри будут входить члены команд Rust Core и Community, а также волонтеры
+из большого сообщества Rust.
 
-# Announcement of the Winner(s)
+# Объявление Победителя(-ей)
 
-The winners will be announced some time around June 2017.
+Победитель будет объявлен где-то в районе июня 2017.
 
-# Eligibility
+# Правила
 
-The contest organizers, judges, and sponsors are not eligible to participate in
-the contest. Prizes, if any, may not be available should the winner(s) live in
-a country subject to embargo or other legal reasons. In the event that prizes
-cannot be awarded due to legal restrictions, the contest organizers will make a
-good faith effort to resolve the situation within the applicable laws; if it is
-determined that the situation is not reasonably resolvable, the prizes will be
-donated to an appropriate charity.
+Организаторы соревнований, судьи, и спонсоры не имеют право участвовать в соревновании.
+Может такое случится, что не будет возможности доставить призы победителю, например, 
+он живет в стране, в отношении которой действует эмбарго или 
+другие юридические ограничения. В таком случае, если призы не могут 
+быть вручены, организаторы конкурса приложат все усилия, 
+чтобы разрешить ситуацию в рамках действующего законодательства; если выясняется, 
+что ситуация не разрешима, призы будут отданы на благотворительность.
 
-If the winner does not wish to provide identifying information necessary to
-deliver any prize(s) they have won, the prize(s) will be donated to an
-appropriate charity. Rust-specific prizes (swag, etc) will go to the runner up.
+Если победитель не пожелает дать информацию, необходимую для доставки приза(ов), 
+который он выиграл, приз(ы) будут переданы в благотворительный фонд. 
+Специфические Rust призы (swag, и т.д.) будут выданы второму месту.
