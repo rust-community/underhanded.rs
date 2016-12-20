@@ -9,6 +9,7 @@ lang: zh-CN
 [Deutsche]({% post_url 2016-12-15-underhanded-rust.de-DE %}),
 [English]({% post_url 2016-12-15-underhanded-rust.en-US %}),
 [Español]({% post_url 2016-12-15-underhanded-rust.es-ES %}),
+[Русский]({% post_url 2016-12-15-underhanded-rust.ru-RU %})
 
 [Rust社区团队](https://community.rs)很高兴地宣布首届“Rust黑手大赛”（Underhanded Rust Contest）。这场比赛主旨是为了测试[Rust](https://www.rust-lang.org/)的主张和我们的[生态系统](https://crates.io/)，用它可以很容易地编写干净健壮的软件。秉承“C黑手”（[Underhanded C](http://www.underhanded-c.org/) ）和 “Crypto黑手”（[Underhanded
 Crypto](https://underhandedcrypto.com/) ）比赛的理念，我们希望您使用合理、可读的代码来打破一切。我们需要您的帮助来了解缺陷在哪里以及要修复它们需要做些什么。您是否可以编写一个100%安全但又隐藏逻辑bug，或者，仪仗[unsafe](https://doc.rust-lang.org/book/unsafe.html)来通过编译器审计但又隐藏了漏洞的Rust代码？现在，展示您能力的机会来了！

@@ -21,6 +21,8 @@
         <a class="page-link" href="{{ "/" | append: page.lang | relative_url }}/about">Acerca De</a>
         {% elsif page.lang == "zh-CN" %}
         <a class="page-link" href="{{ "/" | append: page.lang | relative_url }}/about">关于</a>
+        {% elsif page.lang == "ru-RU" %}
+        <a class="page-link" href="{{ "/" | append: page.lang | relative_url }}/about">О сайте</a>
         {% else %}
         <a class="page-link" href="{{ "/" | append: page.lang | relative_url }}/about">About</a>
         {% endif %}

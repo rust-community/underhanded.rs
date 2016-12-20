@@ -8,7 +8,8 @@ lang: de-DE
 {:.post-meta}
 [English]({% post_url 2016-12-15-underhanded-rust.en-US %}),
 [Español]({% post_url 2016-12-15-underhanded-rust.es-ES %}),
-[简体中文]({% post_url 2016-12-15-underhanded-rust.zh-CN %})
+[简体中文]({% post_url 2016-12-15-underhanded-rust.zh-CN %}),
+[Русский]({% post_url 2016-12-15-underhanded-rust.ru-RU %})
 
 Das [Rust Community Team](https://community.rs) freut sich, die erste Ausgabe
 des jährlichen Underhanded Rust Contests anzukündigen,
