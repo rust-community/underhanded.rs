@@ -1,10 +1,15 @@
 ---
 layout: post
 title:  "Соревнование Underhanded Rust 2016"
-date:   2016-12-07 11:23:34 -1000
-categories: underhanded
+category: blog
 lang: ru-RU
 ---
+
+{:.post-meta}
+[Deutsch]({% post_url 2016-12-15-underhanded-rust.de-DE %}),
+[English]({% post_url 2016-12-15-underhanded-rust.en-US %}),
+[Español]({% post_url 2016-12-15-underhanded-rust.es-ES %}),
+[简体中文]({% post_url 2016-12-15-underhanded-rust.zh-CN %})
 
 [Команда связей с сообществом Rust](https://community.rs) рада сообщить о первом
 ежегодном соревновании Underhanded Rust. Это соревнование должно проверить наше 
