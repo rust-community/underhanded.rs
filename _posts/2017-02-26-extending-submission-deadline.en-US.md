@@ -16,7 +16,7 @@ It builds out a simple payment processor using a number of popular Rust
 libraries, like the SQL ORM [Diesel][diesel], and the web frameworks
 [Iron][iron] and [Rocket][rocket]. It also has contains what's probably the
 simplest exploit possible, zero authentication and no bounds checking on
-transfers.
+transfers. Feel free to lift any code from this project.
 
 Second, we have created a dedicated IRC channel for the contest
 [#underhanded-rust][underhanded_rust_irc] where we can help you get started,
