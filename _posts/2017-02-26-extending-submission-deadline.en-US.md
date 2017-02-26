@@ -30,8 +30,8 @@ we can do to resist them.
 [diesel]: http://diesel.rs
 [iron]: http://ironframework.io/
 [rocket]: https://rocket.rs/
-[quad_bank]: https://client00.chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-bots
-[underhanded_rust_irc]: https://client00.chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-bots
+[quad_bank]: https://github.com/erickt/quad-bank
+[underhanded_rust_irc]: https://client00.chat.mibbit.com/?server=irc.mozilla.org&channel=%23underhanded-rust
 [resisting_underhandedness]: https://github.com/rust-community/underhanded.rs/wiki/Resisting-Underhandedness
 
 # Questions from the community
@@ -67,4 +67,14 @@ suspicious.
 
 Yes, we'd love to see classic attacks like this!
 
+---
+
+If you have any other questions, please feel free to either ask on
+<mailto:underhanded@rust-lang.org>, or on our IRC channels [#rust-community] or
+[#underhanded-rust].
+
+Have fun causing trouble!
+
 [announcement]: https://underhanded.rs/blog/2016/12/15/underhanded-rust.en-US.html
+[#rust-community]: https://client00.chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community
+[#underhanded-rust]: https://client00.chat.mibbit.com/?server=irc.mozilla.org&channel=%23underhanded-rust
