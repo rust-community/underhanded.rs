@@ -116,7 +116,7 @@ traducidos](https://github.com/ctjhoa/rust-learning#locale-links).
 
 # Reglas y Plazos para la Entrega
 
-Envía tus entregas a <mailto:underhanded@rust-lang.org> antes del 1 de Marzo
+Envía tus entregas a <mailto:underhanded@rust-lang.org> antes del 31 de Marzo
 de 2017.
 
 Para que sea más fácil para nosotros juzgar, necesitamos que nos envíes la

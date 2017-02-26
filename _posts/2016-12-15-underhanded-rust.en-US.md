@@ -118,7 +118,7 @@ scoring of your submission.
 
 # Submission Guidelines and Deadlines
 
-Send your submissions to <mailto:underhanded@rust-lang.org> by March 1, 2017.
+Send your submissions to <mailto:underhanded@rust-lang.org> by March 31, 2017.
 
 To make things easier for us to judge, we require you to send us your
 submission in the following format. Please send your submission as a compressed
