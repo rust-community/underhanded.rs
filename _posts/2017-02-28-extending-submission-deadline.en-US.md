@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Extending the Underhanded Submission Deadline"
+title: "Extending the Underhanded Rust Submission Deadline to March 31 (and more)"
 category: blog
 lang: en-US
 ---
