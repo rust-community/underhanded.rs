@@ -113,7 +113,7 @@ Buch](https://doc.rust-lang.org/book/) oder die [nach Sprache sortierten Lern-Li
 
 # Handreichungen und Termine
 
-Schickt eure Einreichungen bis zum 1. Mai, 2017 an <mailto:underhanded@rust-lang.org>.
+Schickt eure Einreichungen bis zum 31. Mai, 2017 an <mailto:underhanded@rust-lang.org>.
 
 Zur leichteren Bewertung bitten wir euch, folgendes Format einzuhalten. Bitte
 sende die Einreichung als gepackten Ordner (`.tar.gz`, `.tar.bz2`, `.zip`, usw)
