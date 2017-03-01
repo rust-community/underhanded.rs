@@ -62,7 +62,7 @@ Book](https://doc.rust-lang.org/book/) 或 [特定语言的资讯](https://githu
 
 # 提交指南与截止日期
 
-在2017年3月1日之前把您的提交程序发送至<mailto:underhanded@rust-lang.org>。
+在2017年3月31日之前把您的提交程序发送至<mailto:underhanded@rust-lang.org>。
 
 为了方便我们评判，我们需要您按下面格式来发送您提交的程序。请将您的提交压缩为(`.tar.gz`, `.tar.bz2`, `.zip`, 等)压缩文件，并包含下面内容：
 
