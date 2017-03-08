@@ -1,11 +1,16 @@
 ---
 layout: post
-title: "Mitigating Underhandedness: Fuzzing Your Rust Code with cargo-fuzz"
+title: "Mitigating Underhandedness: Fuzzing Rust to automatically find bugs"
 category: blog
 lang: en-US
+tags: mitigating-underhandedness
 ---
 
 _Note: This is reposted with permission from [Manish Goregaokar]._
+
+This post is a part of a series of articles from the Rust community about the
+techniques and techologies to help protect you from accidental or intentional
+security vulnerabilities.
 
  [Manish Goregaokar]: http://manishearth.github.io/blog/2017/03/02/mitigating-underhandedness-fuzzing-your-code/
 
