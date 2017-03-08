@@ -11,8 +11,9 @@ _Note: This is reposted with permission from [Manish Goregaokar]._
 
 ---
 
-The [submission deadline for the Underhanded Rust competition has been extended][submit], so
-let's talk more about how to keep your code working and free from bugs/underhandedness!
+The [submission deadline for the Underhanded Rust competition has been extended
+to March 31][submit], so let's talk more about how to keep your code working
+and free from bugs/underhandedness!
 
 [Previously, we talked about Clippy][post-prev].
 
