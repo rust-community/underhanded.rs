@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mitigating Underhandedness: Fuzzing Your Code"
+title: "Mitigating Underhandedness: Fuzzing Your Rust Code with cargo-fuzz"
 category: blog
 lang: en-US
 ---
