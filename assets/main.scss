@@ -26,6 +26,12 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
 // @include media-query($on-palm) {
